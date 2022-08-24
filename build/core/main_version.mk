@@ -19,3 +19,7 @@ ADDITIONAL_BUILD_PROPERTIES += \
 # LineageOS Platform Internal Version
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+    
+# CrDroid System Version
+ADDITIONAL_BUILD_PROPERTIES += \
+    ro.crdroid.maintainer=$(CRDROID_MAINTAINER)
